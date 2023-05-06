@@ -17,32 +17,118 @@ const Chat = () => {
                 <View style={chatStyles.HeaderCenter}><Text style={chatStyles.PersonTitle}>Towhid</Text></View>
                 <View style={chatStyles.HeaderRight}></View>
             </View>
-            <View style={styles.Container}>
+            <View style={chatStyles.Container}>
                 <View style={chatStyles.Body}>
                     <ScrollView>
                         <TouchableOpacity style={chatStyles.Frnd}>
                             <Text>HI There This Is Me</Text>
                         </TouchableOpacity>
-                        <View style={chatStyles.MeWrapper}>
-                            <TouchableOpacity style={chatStyles.Me}>
+
+                        <TouchableOpacity style={chatStyles.MeWrapper}>
+                            <View style={chatStyles.Me}>
                                 <Text>HI There This Is Me</Text>
-                            </TouchableOpacity>
-                        </View>
+                            </View>
+                        </TouchableOpacity>
+
+                        <TouchableOpacity style={chatStyles.Frnd}>
+                            <Text>HI There This Is Me</Text>
+                        </TouchableOpacity>
+
+                        <TouchableOpacity style={chatStyles.MeWrapper}>
+                            <View style={chatStyles.Me}>
+                                <Text>HI There This Is Me</Text>
+                            </View>
+                        </TouchableOpacity>
+
+                        <TouchableOpacity style={chatStyles.Frnd}>
+                            <Text>HI There This Is Me</Text>
+                        </TouchableOpacity>
+
+                        <TouchableOpacity style={chatStyles.MeWrapper}>
+                            <View style={chatStyles.Me}>
+                                <Text>HI There This Is Me</Text>
+                            </View>
+                        </TouchableOpacity>
+
+                        <TouchableOpacity style={chatStyles.Frnd}>
+                            <Text>HI There This Is Me</Text>
+                        </TouchableOpacity>
+
+                        <TouchableOpacity style={chatStyles.MeWrapper}>
+                            <View style={chatStyles.Me}>
+                                <Text>HI There This Is Me</Text>
+                            </View>
+                        </TouchableOpacity>
+
+                        <TouchableOpacity style={chatStyles.Frnd}>
+                            <Text>HI There This Is Me</Text>
+                        </TouchableOpacity>
+
+                        <TouchableOpacity style={chatStyles.MeWrapper}>
+                            <View style={chatStyles.Me}>
+                                <Text>HI There This Is Me</Text>
+                            </View>
+                        </TouchableOpacity>
+
+                        <TouchableOpacity style={chatStyles.Frnd}>
+                            <Text>HI There This Is Me</Text>
+                        </TouchableOpacity>
+
+                        <TouchableOpacity style={chatStyles.MeWrapper}>
+                            <View style={chatStyles.Me}>
+                                <Text>HI There This Is Me</Text>
+                            </View>
+                        </TouchableOpacity>
+
+                        <TouchableOpacity style={chatStyles.Frnd}>
+                            <Text>HI There This Is Me</Text>
+                        </TouchableOpacity>
+
+                        <TouchableOpacity style={chatStyles.MeWrapper}>
+                            <View style={chatStyles.Me}>
+                                <Text>HI There This Is Me</Text>
+                            </View>
+                        </TouchableOpacity>
+
+                        <TouchableOpacity style={chatStyles.Frnd}>
+                            <Text>HI There This Is Me</Text>
+                        </TouchableOpacity>
+
+                        <TouchableOpacity style={chatStyles.MeWrapper}>
+                            <View style={chatStyles.Me}>
+                                <Text>HI There This Is Me</Text>
+                            </View>
+                        </TouchableOpacity>
+
+                        <TouchableOpacity style={chatStyles.Frnd}>
+                            <Text>HI There This Is Me</Text>
+                        </TouchableOpacity>
+
+                        <TouchableOpacity style={chatStyles.MeWrapper}>
+                            <View style={chatStyles.Me}>
+                                <Text>HI There This Is Me</Text>
+                            </View>
+                        </TouchableOpacity>
 
                     </ScrollView>
 
 
                 </View>
 
-                
-            </View>
-            <View style={chatStyles.Footer}>
+                <View style={chatStyles.Footer}>
                     <TextInput style={chatStyles.TextInput} placeholder='Write your text' />
                     <View style={chatStyles.CameraImageWrapper}>
-                        <Image style={chatStyles.Camera} source={require('../assets/images/camera.png')} />
-                        <Image style={chatStyles.Camera} source={require('../assets/images/image.png')} />
+                        <TouchableOpacity>
+                            <Image style={chatStyles.Camera} source={require('../assets/images/camera.png')} />
+                        </TouchableOpacity>
+                        <TouchableOpacity>
+                            <Image style={chatStyles.Camera} source={require('../assets/images/image.png')} />
+                        </TouchableOpacity>
                     </View>
                 </View>
+
+            </View>
+
         </View>
     )
 }

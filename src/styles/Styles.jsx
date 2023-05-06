@@ -85,11 +85,11 @@ export const chatStyles = ({
         width:20
     },
     MainBox:{
-        height:'100%'
+        height:'100%',
+
     },
     Body:{
         height:'80%',
-        // marginBottom:10 
     },
     Frnd:{
         backgroundColor:'orange',
@@ -116,6 +116,10 @@ export const chatStyles = ({
         display:'flex',
         flexDirection:'row',
         alignItems:'center',
+        height:'20%',
+        // marginVertical:10
+        // backgroundColor: 'green',
+        
         
     },
     Camera:{
@@ -128,13 +132,18 @@ export const chatStyles = ({
         borderColor:'#CCCCCC',
         borderWidth:1,
         borderRadius:50,
-        paddingLeft:20
+        paddingLeft:20,
     },
     CameraImageWrapper:{
         width:'30%',
         display:'flex',
         flexDirection:'row',
-        justifyContent:'space-evenly'
+        justifyContent:'space-evenly',
+        // marginBottom:20
+    },
+    Container:{
+        paddingVertical:50,
+        paddingHorizontal:20,
     }
     
 })
