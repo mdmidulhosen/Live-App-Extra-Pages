@@ -1,6 +1,6 @@
 export const styles =({
     MainBox:{
-
+        height:'100%',
     },
     Container:{
         padding:20,
@@ -146,4 +146,115 @@ export const chatStyles = ({
         paddingHorizontal:20,
     }
     
+});
+export const searchPage =({
+    MainBox:{
+
+    },
+    SearchWrapper:{
+        display:'flex',
+        flexDirection:'row',
+        alignItems:'center'
+    },
+    Search:{
+        width:'80%',
+        marginRight:5,
+        borderRadius:100,
+        paddingLeft:10,
+        backgroundColor: "#dddddd",
+    },
+    Cancel:{
+        width:'20%',
+        marginLeft:5,
+    },
+    CancelText:{
+        fontSize:16,
+    },
+    SearchItem:{
+        display:'flex',
+        flexDirection:'row',
+        paddingVertical:15,
+        borderBottomColor:'#f1f1f1',
+        borderBottomWidth:1,
+    },
+    Icon:{
+        height:20,
+        width:20,
+        marginRight:18
+    }
+});
+
+export const SearchResultStyles = ({
+    HostTextWrapper:{
+        display:'flex',
+        flexDirection:'row',
+        justifyContent:'space-between',
+        paddingVertical:14
+    },
+    UserImage:{
+        height:55,
+        width:55,
+        borderRadius:100
+    },
+    HostWrapper:{
+        display:'flex',
+        flexDirection:'row',
+
+    },
+    HostItem:{
+        display:'flex',
+        flexDirection:'column',
+        alignItems:'center',
+        width:130,
+        borderColor:'#cccccc',
+        borderWidth:1,
+        height:160,
+        justifyContent:'center',
+        borderRadius:8,
+        marginRight:10
+    },
+    UserName:{
+        color:'black',
+        fontWeight:700,
+    },
+    FollowBtn:{
+        borderRadius:100,
+        backgroundColor:'blue',
+        width:70,
+        height:30,
+        display:'flex',
+        justifyContent:'center',
+        alignItems:'center',
+        flexDirection:'row',
+        marginTop:5
+    },
+    FollowBtnTxt:{
+        color:'white',
+    },
+    CommunityWrapper:{
+        marginBottom:10,
+    },
+    CommunityItem:{
+        display:'flex',
+        flexDirection:'row',
+        alignItems:'center',
+        justifyContent:'space-between'
+    },
+    CommunityUserImage:{
+        height:55,
+        width:55,
+        borderRadius:8,
+    },
+    TitleSubTilteWrapper:{
+        marginHorizontal:10
+    },
+    RelevantLeft:{
+        display:'flex',
+        flexDirection:'row'
+    },
+    SectionLeftTitle:{
+        fontWeight:700,
+        fontSize:16,
+        color:'black'
+    }
 })

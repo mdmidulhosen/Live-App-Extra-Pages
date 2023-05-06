@@ -4,7 +4,7 @@ import { contactStyles, styles } from '../styles/Styles';
 
 const Contact = () => {
   return (
-    <ScrollView style={styles.MainBox}>
+    <ScrollView>
       <View style={styles.Container}>
 
         {/* Header code start from here */}
